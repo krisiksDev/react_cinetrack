@@ -6,8 +6,10 @@ import type { Movie } from "../types/movie";
 import "../styles/home.css";
 
 const Home = () => {
-  const movies: Movie[] = moviesData;
-  const genres = Array.from(new Set(movies.flatMap((m) => m.genre))).sort();
+  const raw = moviesData as unknown as any;
+  const movies: Movie[] = Array.isArray(raw) ? raw : raw?.content ?? [];
+
+  const genres = Array.from(new Set(movies.flatMap((m) => m.genre ?? []))).sort();
 
   const {
     filteredMovies,
@@ -15,14 +17,16 @@ const Home = () => {
     selectedType,
     selectedYear,
     selectedRating,
+    searchQuery,
     setSelectedType,
     setSelectedYear,
     setSelectedRating,
+    setSearchQuery,
     toggleGenre,
   } = useMovieFilters(movies);
 
   return (
-    <div>
+    <div className="home">
       <h2>Catalogue</h2>
 
       <Filter
@@ -35,6 +39,8 @@ const Home = () => {
         onYearChange={setSelectedYear}
         selectedRating={selectedRating}
         onRatingChange={setSelectedRating}
+        searchQuery={searchQuery}
+        onSearchChange={setSearchQuery}
       />
 
       <MovieGrid movies={filteredMovies} />

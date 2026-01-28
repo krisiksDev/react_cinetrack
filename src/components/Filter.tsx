@@ -13,10 +13,13 @@ type FilterProps = {
 
   selectedRating: number | null;
   onRatingChange: (rating: number | null) => void;
+
+  searchQuery: string;
+  onSearchChange: (query: string) => void;
 };
 
 const Filter: React.FC<FilterProps> = ({
-  genres,
+  genres = [],
   selectedGenres,
   onGenreChange,
   selectedType,
@@ -24,13 +27,25 @@ const Filter: React.FC<FilterProps> = ({
   selectedYear,
   onYearChange,
   selectedRating,
-  onRatingChange
+  onRatingChange,
+  searchQuery,
+  onSearchChange,
 }) => {
   return (
     <div className="filters">
+      {/* Recherche */}
+      <div className="filters__section">
+        <h4>Recherche</h4>
+        <input
+          type="text"
+          value={searchQuery}
+          onChange={(e) => onSearchChange(e.target.value)}
+          placeholder="Ex: Inception"
+        />
+      </div>
 
-      {/* TYPE */}
-      <div>
+      {/* Type */}
+      <div className="filters__section">
         <h4>Type</h4>
         <select value={selectedType} onChange={(e) => onTypeChange(e.target.value)}>
           <option value="">Tous</option>
@@ -39,50 +54,47 @@ const Filter: React.FC<FilterProps> = ({
         </select>
       </div>
 
-      {/* GENRES */}
-      <div>
+      {/* Genres */}
+      <div className="filters__section filters__genres">
         <h4>Genres</h4>
-        {genres.map((genre) => (
-          <label key={genre}>
-            <input
-              type="checkbox"
-              checked={selectedGenres.includes(genre)}
-              onChange={() => onGenreChange(genre)}
-            />
-            {genre}
-          </label>
-        ))}
+        <div className="filters__genresList">
+          {(genres ?? []).map((genre) => (
+            <label key={genre} className="filters__genreItem">
+              <input
+                type="checkbox"
+                checked={selectedGenres.includes(genre)}
+                onChange={() => onGenreChange(genre)}
+              />
+              {genre}
+            </label>
+          ))}
+        </div>
       </div>
 
-      {/* ANNÉE */}
-      <div>
+      {/* Année */}
+      <div className="filters__section">
         <h4>Année</h4>
         <input
           type="number"
           value={selectedYear ?? ""}
-          onChange={(e) =>
-            onYearChange(e.target.value ? Number(e.target.value) : null)
-          }
+          onChange={(e) => onYearChange(e.target.value ? Number(e.target.value) : null)}
           placeholder="Ex: 2015"
         />
       </div>
 
-      {/* NOTE */}
-      <div>
+      {/* Note min */}
+      <div className="filters__section">
         <h4>Note minimum</h4>
         <input
           type="number"
           min={0}
           max={10}
-          step={1}
+          step={0.1}
           value={selectedRating ?? ""}
-          onChange={(e) =>
-            onRatingChange(e.target.value ? Number(e.target.value) : null)
-          }
+          onChange={(e) => onRatingChange(e.target.value ? Number(e.target.value) : null)}
           placeholder="Ex: 7.5"
         />
       </div>
-
     </div>
   );
 };
