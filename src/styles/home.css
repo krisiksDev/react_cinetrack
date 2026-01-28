@@ -1,0 +1,82 @@
+/* =========================  HOME PAGE (Catalogue) ========================= */
+
+.home {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 32px;
+}
+
+.home h2 {
+  margin-bottom: 28px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+/* Grille type Netflix */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 24px;
+  justify-items: center;
+  align-items: start;
+}
+
+/* Carte film/série */
+.movie-card {
+  width: 180px;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Poster */
+.movie-card img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+/* Hover effet Netflix */
+.movie-card:hover img {
+  transform: scale(1.06);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.5);
+}
+
+/* Titre */
+.movie-card h3 {
+  margin-top: 10px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+/* Rating */
+.movie-card p {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #f5c518;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Petites améliorations responsive */
+@media (max-width: 520px) {
+  .home {
+    padding: 24px 16px;
+  }
+
+  .movie-card {
+    width: 160px;
+  }
+
+  .movie-card img {
+    height: 240px;
+  }
+}

@@ -8,7 +8,7 @@
     "duration": 148,
     "director": "Christopher Nolan",
     "cast": ["Leonardo DiCaprio", "..."],
-    "poster": "url...",
+    "poster": "../../public/posters/films/inception.jpg",
     "synopsis": "Un voleur professionnel...",
     "rating": 8.8
   },
@@ -21,7 +21,7 @@
     "duration": 178,
     "director": "Peter Jackson",
     "cast": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/seigneur-des-anneaux-communaute.jpg",
     "synopsis": "Un jeune Hobbit, Frodon, hérite d'un anneau aux pouvoirs immenses...",
     "rating": 8.8
   },
@@ -34,7 +34,7 @@
     "duration": 49,
     "director": "Vince Gilligan",
     "cast": ["Bryan Cranston", "Aaron Paul"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/breaking-bad.jpg",
     "synopsis": "Un professeur de chimie atteint d'un cancer se lance dans la fabrication de méthamphétamine.",
     "rating": 9.5
   },
@@ -47,7 +47,7 @@
     "duration": 169,
     "director": "Christopher Nolan",
     "cast": ["Matthew McConaughey", "Anne Hathaway"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/interstellar.jpg",
     "synopsis": "Un groupe d'explorateurs voyage à travers un trou de ver à la recherche d'un nouveau foyer pour l'humanité.",
     "rating": 8.6
   },
@@ -60,7 +60,7 @@
     "duration": 57,
     "director": "David Benioff, D. B. Weiss",
     "cast": ["Emilia Clarke", "Kit Harington"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/game-of-thrones.jpg",
     "synopsis": "Neuf familles nobles se battent pour le contrôle des terres de Westeros.",
     "rating": 9.2
   },
@@ -73,7 +73,7 @@
     "duration": 132,
     "director": "Bong Joon-ho",
     "cast": ["Song Kang-ho", "Lee Sun-kyun"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/parasite.jpg",
     "synopsis": "Une famille pauvre s'immisce dans la vie d'une famille riche.",
     "rating": 8.6
   },
@@ -86,7 +86,7 @@
     "duration": 51,
     "director": "The Duffer Brothers",
     "cast": ["Millie Bobby Brown", "Finn Wolfhard"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/stranger-things.jpg",
     "synopsis": "Un garçon disparaît mystérieusement dans une petite ville.",
     "rating": 8.7
   },
@@ -99,7 +99,7 @@
     "duration": 162,
     "director": "James Cameron",
     "cast": ["Sam Worthington", "Zoe Saldana"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/avatar.jpg",
     "synopsis": "Un marine paraplégique est envoyé sur Pandora.",
     "rating": 7.8
   },
@@ -112,7 +112,7 @@
     "duration": 58,
     "director": "Peter Morgan",
     "cast": ["Claire Foy", "Olivia Colman"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/the-crown.jpg",
     "synopsis": "La vie de la reine Elizabeth II.",
     "rating": 8.6
   },
@@ -125,7 +125,7 @@
     "duration": 142,
     "director": "Robert Zemeckis",
     "cast": ["Tom Hanks", "Robin Wright"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/forrest-gump.jpg",
     "synopsis": "L'histoire extraordinaire d'un homme simple.",
     "rating": 8.8
   },
@@ -138,7 +138,7 @@
     "duration": 40,
     "director": "Jon Favreau",
     "cast": ["Pedro Pascal", "Gina Carano"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/the-mandalorian.jpg",
     "synopsis": "Un chasseur de primes solitaire dans l'univers Star Wars.",
     "rating": 8.7
   },
@@ -151,7 +151,7 @@
     "duration": 154,
     "director": "Quentin Tarantino",
     "cast": ["John Travolta", "Samuel L. Jackson"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/pulp-fiction.jpg",
     "synopsis": "Des histoires entremêlées de criminels à Los Angeles.",
     "rating": 8.9
   },
@@ -164,7 +164,7 @@
     "duration": 88,
     "director": "Mark Gatiss, Steven Moffat",
     "cast": ["Benedict Cumberbatch", "Martin Freeman"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/sherlock.jpg",
     "synopsis": "Les enquêtes modernes de Sherlock Holmes.",
     "rating": 9.1
   },
@@ -177,7 +177,7 @@
     "duration": 128,
     "director": "Damien Chazelle",
     "cast": ["Ryan Gosling", "Emma Stone"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/la-la-land.jpg",
     "synopsis": "Un musicien et une actrice tentent de réaliser leurs rêves à Los Angeles.",
     "rating": 8.0
   },
@@ -190,7 +190,7 @@
     "duration": 60,
     "director": "Lauren Schmidt Hissrich",
     "cast": ["Henry Cavill", "Anya Chalotra"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/the-witcher.jpg",
     "synopsis": "Les aventures de Geralt de Riv, un chasseur de monstres.",
     "rating": 8.2
   },
@@ -203,7 +203,7 @@
     "duration": 155,
     "director": "Ridley Scott",
     "cast": ["Russell Crowe", "Joaquin Phoenix"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/gladiator.jpg",
     "synopsis": "Un général romain trahi devient gladiateur.",
     "rating": 8.5
   },
@@ -216,7 +216,7 @@
     "duration": 22,
     "director": "David Crane, Marta Kauffman",
     "cast": ["Jennifer Aniston", "Courteney Cox"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/friends.jpg",
     "synopsis": "Six amis vivent à New York.",
     "rating": 8.9
   },
@@ -229,7 +229,7 @@
     "duration": 122,
     "director": "Todd Phillips",
     "cast": ["Joaquin Phoenix", "Robert De Niro"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/joker.jpg",
     "synopsis": "L'origine du célèbre ennemi de Batman.",
     "rating": 8.4
   },
@@ -242,7 +242,7 @@
     "duration": 22,
     "director": "Greg Daniels",
     "cast": ["Steve Carell", "John Krasinski"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/the-office.jpg",
     "synopsis": "La vie quotidienne des employés d'une entreprise de papier.",
     "rating": 8.9
   },
@@ -255,7 +255,7 @@
     "duration": 181,
     "director": "Anthony Russo, Joe Russo",
     "cast": ["Robert Downey Jr.", "Chris Evans"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/avengers-endgame.jpg",
     "synopsis": "Les Avengers affrontent Thanos pour sauver l'univers.",
     "rating": 8.4
   },
@@ -268,7 +268,7 @@
     "duration": 53,
     "director": "Baran bo Odar, Jantje Friese",
     "cast": ["Louis Hofmann", "Lisa Vicari"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/dark.jpg",
     "synopsis": "Des disparitions mystérieuses dans une petite ville allemande.",
     "rating": 8.8
   },
@@ -281,7 +281,7 @@
     "duration": 195,
     "director": "James Cameron",
     "cast": ["Leonardo DiCaprio", "Kate Winslet"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/titanic.jpg",
     "synopsis": "Une romance tragique à bord du Titanic.",
     "rating": 7.9
   },
@@ -294,7 +294,7 @@
     "duration": 60,
     "director": "Steven Knight",
     "cast": ["Cillian Murphy", "Paul Anderson"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/peaky-blinders.jpg",
     "synopsis": "Un gang familial dans l'Angleterre d'après-guerre.",
     "rating": 8.8
   },
@@ -307,7 +307,7 @@
     "duration": 136,
     "director": "Lana Wachowski, Lilly Wachowski",
     "cast": ["Keanu Reeves", "Laurence Fishburne"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/matrix.jpg",
     "synopsis": "Un pirate informatique découvre la vérité sur la réalité.",
     "rating": 8.7
   },
@@ -320,7 +320,7 @@
     "duration": 60,
     "director": "Scott Frank",
     "cast": ["Anya Taylor-Joy", "Bill Camp"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/the-queens-gambit.jpg",
     "synopsis": "Une jeune prodige des échecs lutte contre ses démons.",
     "rating": 8.6
   },
@@ -333,7 +333,7 @@
     "duration": 122,
     "director": "Jean-Pierre Jeunet",
     "cast": ["Audrey Tautou", "Mathieu Kassovitz"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/amelie-poulain.jpg",
     "synopsis": "La vie poétique d'une jeune femme à Montmartre.",
     "rating": 8.3
   },
@@ -346,7 +346,7 @@
     "duration": 60,
     "director": "Charlie Brooker",
     "cast": ["Bryce Dallas Howard", "Hayley Atwell"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/black-mirror.jpg",
     "synopsis": "Une série d'anthologie sur les dérives technologiques.",
     "rating": 8.8
   },
@@ -359,7 +359,7 @@
     "duration": 88,
     "director": "Roger Allers, Rob Minkoff",
     "cast": ["Matthew Broderick", "James Earl Jones"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/le-roi-lion.jpg",
     "synopsis": "Un lionceau doit reprendre sa place de roi.",
     "rating": 8.5
   },
@@ -372,7 +372,7 @@
     "duration": 49,
     "director": "Chris Brancato, Carlo Bernard",
     "cast": ["Wagner Moura", "Pedro Pascal"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/narcos.jpg",
     "synopsis": "L'ascension et la chute de Pablo Escobar.",
     "rating": 8.8
   },
@@ -385,7 +385,7 @@
     "duration": 127,
     "director": "Steven Spielberg",
     "cast": ["Sam Neill", "Laura Dern"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/jurassic-park.jpg",
     "synopsis": "Des dinosaures ramenés à la vie sur une île.",
     "rating": 8.2
   },
@@ -398,7 +398,7 @@
     "duration": 44,
     "director": "J.J. Abrams, Damon Lindelof",
     "cast": ["Matthew Fox", "Evangeline Lilly"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/lost.jpg",
     "synopsis": "Des survivants d'un crash sur une île mystérieuse.",
     "rating": 8.3
   },
@@ -411,7 +411,7 @@
     "duration": 112,
     "director": "Olivier Nakache, Éric Toledano",
     "cast": ["François Cluzet", "Omar Sy"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/intouchables.jpg",
     "synopsis": "L'amitié improbable entre un aristocrate et son aide à domicile.",
     "rating": 8.5
   },
@@ -424,7 +424,7 @@
     "duration": 44,
     "director": "Michael Hirst",
     "cast": ["Travis Fimmel", "Katheryn Winnick"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/vikings.jpg",
     "synopsis": "Les exploits du légendaire Ragnar Lothbrok.",
     "rating": 8.5
   },
@@ -437,7 +437,7 @@
     "duration": 138,
     "director": "Martin Scorsese",
     "cast": ["Leonardo DiCaprio", "Mark Ruffalo"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/shutter-island.jpg",
     "synopsis": "Deux agents enquêtent sur la disparition d'une patiente dans un hôpital psychiatrique.",
     "rating": 8.2
   },
@@ -450,7 +450,7 @@
     "duration": 60,
     "director": "Eric Kripke",
     "cast": ["Karl Urban", "Jack Quaid"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/the-boys.jpg",
     "synopsis": "Des justiciers affrontent des super-héros corrompus.",
     "rating": 8.7
   },
@@ -463,7 +463,7 @@
     "duration": 127,
     "director": "David Fincher",
     "cast": ["Brad Pitt", "Morgan Freeman"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/se7en.jpg",
     "synopsis": "Deux détectives traquent un tueur en série inspiré par les sept péchés capitaux.",
     "rating": 8.6
   },
@@ -476,7 +476,7 @@
     "duration": 50,
     "director": "Bruce Miller",
     "cast": ["Elisabeth Moss", "Yvonne Strahovski"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/the-handmaids-tale.jpg",
     "synopsis": "Dans une société totalitaire, les femmes sont réduites à l'esclavage.",
     "rating": 8.4
   },
@@ -489,7 +489,7 @@
     "duration": 175,
     "director": "Francis Ford Coppola",
     "cast": ["Marlon Brando", "Al Pacino"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/le-parrain.jpg",
     "synopsis": "L'histoire de la famille mafieuse Corleone.",
     "rating": 9.2
   },
@@ -502,7 +502,7 @@
     "duration": 22,
     "director": "Chuck Lorre, Bill Prady",
     "cast": ["Jim Parsons", "Johnny Galecki"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/the-big-bang-theory.jpg",
     "synopsis": "La vie de deux physiciens et leurs amis excentriques.",
     "rating": 8.1
   },
@@ -515,7 +515,7 @@
     "duration": 164,
     "director": "Denis Villeneuve",
     "cast": ["Ryan Gosling", "Harrison Ford"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/blade-runner-2049.jpg",
     "synopsis": "Un nouveau blade runner découvre un secret enfoui.",
     "rating": 8.0
   },
@@ -528,7 +528,7 @@
     "duration": 22,
     "director": "Carter Bays, Craig Thomas",
     "cast": ["Josh Radnor", "Jason Segel"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/how-i-met-your-mother.jpg",
     "synopsis": "Ted raconte à ses enfants comment il a rencontré leur mère.",
     "rating": 8.3
   },
@@ -541,7 +541,7 @@
     "duration": 130,
     "director": "Christopher Nolan",
     "cast": ["Hugh Jackman", "Christian Bale"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/le-prestige.jpg",
     "synopsis": "Deux magiciens rivaux à Londres au XIXe siècle.",
     "rating": 8.5
   },
@@ -554,7 +554,7 @@
     "duration": 53,
     "director": "James Manos Jr.",
     "cast": ["Michael C. Hall", "Jennifer Carpenter"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/dexter.jpg",
     "synopsis": "Un expert médico-légal mène une double vie de tueur en série.",
     "rating": 8.6
   },
@@ -567,7 +567,7 @@
     "duration": 125,
     "director": "Hayao Miyazaki",
     "cast": ["Rumi Hiiragi", "Miyu Irino"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/le-voyage-de-chihiro.jpg",
     "synopsis": "Une jeune fille se retrouve piégée dans un monde magique.",
     "rating": 8.6
   },
@@ -580,7 +580,7 @@
     "duration": 46,
     "director": "Vince Gilligan, Peter Gould",
     "cast": ["Bob Odenkirk", "Jonathan Banks"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/better-call-saul.jpg",
     "synopsis": "L'ascension de l'avocat Jimmy McGill.",
     "rating": 8.9
   },
@@ -593,7 +593,7 @@
     "duration": 126,
     "director": "Luc Besson",
     "cast": ["Bruce Willis", "Milla Jovovich"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/le-cinquieme-element.jpg",
     "synopsis": "Un chauffeur de taxi sauve le monde avec l'aide d'une mystérieuse femme.",
     "rating": 7.7
   },
@@ -606,7 +606,7 @@
     "duration": 51,
     "director": "Beau Willimon",
     "cast": ["Kevin Spacey", "Robin Wright"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/house-of-cards.jpg",
     "synopsis": "Un politicien manipulateur gravit les échelons du pouvoir.",
     "rating": 8.7
   },
@@ -619,7 +619,7 @@
     "duration": 142,
     "director": "Frank Darabont",
     "cast": ["Tim Robbins", "Morgan Freeman"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/les-evades.jpg",
     "synopsis": "Deux prisonniers nouent une amitié indéfectible.",
     "rating": 9.3
   },
@@ -632,7 +632,7 @@
     "duration": 60,
     "director": "Bill Dubuque, Mark Williams",
     "cast": ["Jason Bateman", "Laura Linney"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/ozark.jpg",
     "synopsis": "Un conseiller financier blanchit de l'argent pour un cartel.",
     "rating": 8.5
   },
@@ -645,7 +645,7 @@
     "duration": 116,
     "director": "Robert Zemeckis",
     "cast": ["Michael J. Fox", "Christopher Lloyd"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/retour-vers-le-futur.jpg",
     "synopsis": "Un adolescent voyage dans le temps grâce à une DeLorean.",
     "rating": 8.5
   },
@@ -658,7 +658,7 @@
     "duration": 44,
     "director": "Frank Darabont",
     "cast": ["Andrew Lincoln", "Norman Reedus"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/the-walking-dead.jpg",
     "synopsis": "Des survivants luttent contre des zombies dans un monde post-apocalyptique.",
     "rating": 8.1
   },
@@ -671,7 +671,7 @@
     "duration": 116,
     "director": "Clint Eastwood",
     "cast": ["Clint Eastwood", "Bee Vang"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/gran-torino.jpg",
     "synopsis": "Un vétéran grincheux se lie d'amitié avec son jeune voisin.",
     "rating": 8.1
   },
@@ -684,7 +684,7 @@
     "duration": 44,
     "director": "Paul Scheuring",
     "cast": ["Wentworth Miller", "Dominic Purcell"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/prison-break.jpg",
     "synopsis": "Un homme se fait incarcérer pour faire évader son frère.",
     "rating": 8.3
   },
@@ -697,7 +697,7 @@
     "duration": 118,
     "director": "Jonathan Demme",
     "cast": ["Jodie Foster", "Anthony Hopkins"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/le-silence-des-agneaux.jpg",
     "synopsis": "Une jeune agente du FBI sollicite l'aide d'un tueur en série pour arrêter un autre criminel.",
     "rating": 8.6
   },
@@ -710,7 +710,7 @@
     "duration": 60,
     "director": "Steve Blackman",
     "cast": ["Elliot Page", "Tom Hopper"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/the-umbrella-academy.jpg",
     "synopsis": "Des frères et sœurs dotés de pouvoirs enquêtent sur la mort de leur père.",
     "rating": 8.0
   },
@@ -723,7 +723,7 @@
     "duration": 150,
     "director": "Roman Polanski",
     "cast": ["Adrien Brody", "Thomas Kretschmann"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/le-pianiste.jpg",
     "synopsis": "Un pianiste juif tente de survivre dans le ghetto de Varsovie.",
     "rating": 8.5
   },
@@ -736,7 +736,7 @@
     "duration": 52,
     "director": "Lana Wachowski, Lilly Wachowski",
     "cast": ["Tuppence Middleton", "Brian J. Smith"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/sense8.jpg",
     "synopsis": "Huit inconnus à travers le monde sont mentalement liés.",
     "rating": 8.2
   },
@@ -749,7 +749,7 @@
     "duration": 118,
     "director": "Guillermo del Toro",
     "cast": ["Ivana Baquero", "Sergi López"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/le-labyrinthe-de-pan.jpg",
     "synopsis": "Une jeune fille découvre un monde magique pendant la guerre civile espagnole.",
     "rating": 8.2
   },
@@ -762,7 +762,7 @@
     "duration": 62,
     "director": "Jonathan Nolan, Lisa Joy",
     "cast": ["Evan Rachel Wood", "Thandiwe Newton"],
-    "poster": "url...",
+    "poster": "../../public/posters/series/westworld.jpg",
     "synopsis": "Un parc d'attractions futuriste peuplé d'androïdes.",
     "rating": 8.6
   },
@@ -775,7 +775,7 @@
     "duration": 119,
     "director": "Hayao Miyazaki",
     "cast": ["Chieko Baisho", "Takuya Kimura"],
-    "poster": "url...",
+    "poster": "../../public/posters/films/le-chateau-ambulant.jpg",
     "synopsis": "Une jeune femme est transformée en vieille dame par une sorcière et rencontre un magicien dans un château ambulant.",
     "rating": 8.2
   }

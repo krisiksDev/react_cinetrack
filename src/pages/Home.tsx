@@ -4,7 +4,7 @@ import "../styles/home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <h2>Catalogue</h2>
       <MovieGrid movies={movies} />
     </div>

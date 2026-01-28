@@ -6,7 +6,7 @@ type Props = {
 
 const MovieGrid = ({ movies }: Props) => {
   return (
-    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, 200px)", gap: "16px" }}>
+    <div className="movie-grid">
       {movies.map((movie) => (
         <MovieCard key={movie.id} movie={movie} />
       ))}
