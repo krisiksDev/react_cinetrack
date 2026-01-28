@@ -3,6 +3,7 @@ import MovieGrid from "../components/MovieGrid";
 import Filter from "../components/Filter";
 import { useMovieFilters } from "../hooks/useMovieFilters";
 import type { Movie } from "../types/movie";
+import "../styles/home.css";
 
 const Home = () => {
   const movies: Movie[] = moviesData;
