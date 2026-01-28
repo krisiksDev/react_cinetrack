@@ -1,6 +1,7 @@
 import moviesData from "../data/movie.json";
 import MovieGrid from "../components/MovieGrid";
 import Filter from "../components/Filter";
+import SearchBar from "../components/SearchBar";
 import { useMovieFilters } from "../hooks/useMovieFilters";
 import type { Movie } from "../types/movie";
 import "../styles/home.css";
@@ -29,6 +30,8 @@ const Home = () => {
     <div className="home">
       <h2>Catalogue</h2>
 
+      <SearchBar value={searchQuery} onChange={setSearchQuery} />
+
       <Filter
         genres={genres}
         selectedGenres={selectedGenres}
@@ -39,8 +42,6 @@ const Home = () => {
         onYearChange={setSelectedYear}
         selectedRating={selectedRating}
         onRatingChange={setSelectedRating}
-        searchQuery={searchQuery}
-        onSearchChange={setSearchQuery}
       />
 
       <MovieGrid movies={filteredMovies} />

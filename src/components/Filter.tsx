@@ -13,9 +13,6 @@ type FilterProps = {
 
   selectedRating: number | null;
   onRatingChange: (rating: number | null) => void;
-
-  searchQuery: string;
-  onSearchChange: (query: string) => void;
 };
 
 const Filter: React.FC<FilterProps> = ({
@@ -28,21 +25,9 @@ const Filter: React.FC<FilterProps> = ({
   onYearChange,
   selectedRating,
   onRatingChange,
-  searchQuery,
-  onSearchChange,
 }) => {
   return (
     <div className="filters">
-      {/* Recherche */}
-      <div className="filters__section">
-        <h4>Recherche</h4>
-        <input
-          type="text"
-          value={searchQuery}
-          onChange={(e) => onSearchChange(e.target.value)}
-          placeholder="Ex: Inception"
-        />
-      </div>
 
       {/* Type */}
       <div className="filters__section">
