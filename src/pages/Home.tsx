@@ -1,5 +1,6 @@
 import movies from "../data/movie.json";
 import MovieGrid from "../components/MovieGrid";
+import "../styles/home.css";
 
 const Home = () => {
   return (
