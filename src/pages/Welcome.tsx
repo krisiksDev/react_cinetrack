@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import "../styles/welcomes.css";
 
 const Welcome = () => {
   const navigate = useNavigate();
@@ -11,7 +10,10 @@ const Welcome = () => {
       </h1>
       <p>Ton Netflix personnel pour films & séries</p>
 
-      <button onClick={() => navigate("/home")}>
+      <button
+        type="button"
+        onClick={() => navigate("/home")}
+      >
         Entrer
       </button>
     </div>

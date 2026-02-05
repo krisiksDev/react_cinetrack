@@ -1,6 +1,5 @@
 import MovieGrid from "../components/MovieGrid";
 import { useHistory } from "../context/HistoryContext";
-import "../styles/home.css";
 
 const History = () => {
   const { history, clearHistory } = useHistory();
@@ -11,9 +10,15 @@ const History = () => {
 
       {history.length > 0 ? (
         <>
-          <button onClick={clearHistory} style={{ marginBottom: 16 }}>
-            Vider l’historique
-          </button>
+          <div style={{ marginBottom: 16 }}>
+            <button
+              type="button"
+              className="ui-button"
+              onClick={clearHistory}
+            >
+              Vider l’historique
+            </button>
+          </div>
 
           <MovieGrid movies={history} />
         </>

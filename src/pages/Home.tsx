@@ -5,7 +5,6 @@ import SearchBar from "../components/SearchBar";
 import { useMovieFilters } from "../hooks/useMovieFilters";
 import type { Movie } from "../types/movie";
 import { Link } from "react-router-dom";
-import "../styles/home.css";
 
 const Home = () => {
   const raw = moviesData as unknown as any;
@@ -34,11 +33,11 @@ const Home = () => {
         <h2>Catalogue</h2>
 
         <Link to="/history" className="history-link">
-          <span className="history-button">Historique</span>
+          <span className="ui-button">Historique</span>
         </Link>
 
-        <Link to="/watchlist">
-        Voir ma watchlist
+        <Link to="/watchlist" className="history-link">
+          <span className="ui-button">Watchlist</span>
         </Link>
       </div>
 

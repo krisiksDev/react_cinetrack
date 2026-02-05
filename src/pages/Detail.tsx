@@ -18,11 +18,15 @@ const Detail = () => {
   const { addToHistory, removeFromHistory, isInHistory } = useHistory();
   const alreadySeen = Number.isFinite(movieId) ? isInHistory(movieId) : false;
 
+  const isInWatchlist = Number.isFinite(movieId)
+    ? watchlist.some((m) => m.id === movieId)
+    : false;
+
   if (!movie) {
     return <p>Film introuvable.</p>;
   }
 
-   const handleAddAndGo = () => {
+  const handleAddAndGo = () => {
     addToWatchlist(movie);
     navigate("/watchlist");
   };
@@ -38,7 +42,7 @@ const Detail = () => {
       <img src={movie.poster} alt={movie.title} width={200} />
 
       <div style={{ display: "flex", gap: 12, margin: "12px 0 18px" }}>
-        <button onClick={handleToggleSeen}>
+        <button type="button" className="ui-button" onClick={handleToggleSeen}>
           {alreadySeen ? "Déjà vu (retirer)" : "Marquer comme vu"}
         </button>
       </div>
@@ -68,8 +72,13 @@ const Detail = () => {
       <h3>Synopsis</h3>
       <p>{movie.synopsis}</p>
 
-      <h3>Add To Watchlist </h3>
-      <button onClick={handleAddAndGo} disabled={isInWatchlist}>
+      <h3>Add To Watchlist</h3>
+      <button
+        type="button"
+        className="ui-button"
+        onClick={handleAddAndGo}
+        disabled={isInWatchlist}
+      >
         {isInWatchlist ? "Dans la watchlist" : "Ajouter à ma watchlist et voir la watchlist"}
       </button>
     </div>

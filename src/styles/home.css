@@ -10,6 +10,36 @@
   font-weight: 700;
 }
 
+.ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1;
+
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: background 0.18s ease, border-color 0.18s ease;
+}
+
+.ui-button:hover {
+  background: rgba(229, 9, 20, 0.15);
+  border-color: rgba(229, 9, 20, 0.45);
+}
+
+.ui-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
 .home-header {
   display: flex;
   justify-content: space-between;
@@ -24,11 +54,13 @@
 .history-button {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
 
   padding: 8px 14px;
   font-size: 0.85rem;
   font-weight: 700;
+  line-height: 1;
 
   color: rgba(255, 255, 255, 0.9);
   background: rgba(255, 255, 255, 0.06);
@@ -156,7 +188,6 @@
   border-radius: 10px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
 }
-
 
 @media (max-width: 680px) {
   .home {

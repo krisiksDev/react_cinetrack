@@ -24,18 +24,27 @@
 
 .welcome button {
   margin-top: 20px;
-  padding: 12px 32px;
-  font-size: 1rem;
-  font-weight: 600;
-  border: none;
-  border-radius: 4px;
-  background-color: #e50914;
-  color: white;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1;
+
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+
   cursor: pointer;
-  transition: transform 0.2s ease, background-color 0.2s ease;
+  transition: background 0.18s ease, border-color 0.18s ease;
 }
 
 .welcome button:hover {
-  background-color: #f6121d;
-  transform: scale(1.05);
+  background: rgba(229, 9, 20, 0.15);
+  border-color: rgba(229, 9, 20, 0.45);
 }
