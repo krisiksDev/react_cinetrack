@@ -1,10 +1,13 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import moviesData from "../data/movie.json";
 import type { Movie } from "../types/movie";
+import { useWatchlist } from "../context/WatchlistContext";
 import { useHistory } from "../context/HistoryContext";
 
 const Detail = () => {
   const { id } = useParams();
+  const { addToWatchlist, watchlist } = useWatchlist();
+  const navigate = useNavigate();
   const movieId = Number(id);
 
   const raw = moviesData as unknown as any;
@@ -18,6 +21,11 @@ const Detail = () => {
   if (!movie) {
     return <p>Film introuvable.</p>;
   }
+
+   const handleAddAndGo = () => {
+    addToWatchlist(movie);
+    navigate("/watchlist");
+  };
 
   const handleToggleSeen = () => {
     if (alreadySeen) removeFromHistory(movie.id);
@@ -59,6 +67,11 @@ const Detail = () => {
 
       <h3>Synopsis</h3>
       <p>{movie.synopsis}</p>
+
+      <h3>Add To Watchlist </h3>
+      <button onClick={handleAddAndGo} disabled={isInWatchlist}>
+        {isInWatchlist ? "Dans la watchlist" : "Ajouter à ma watchlist et voir la watchlist"}
+      </button>
     </div>
   );
 };
